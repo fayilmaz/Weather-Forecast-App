@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { weatherActions } from "./store/actions/weatherActions";
-import selectors from "./store/selectors";
+import { weatherActions } from "./shared/store/actions/weatherActions";
+import selectors from "./shared/store/selectors";
 import WeatherItem from "./components/WeatherItem/WeatherItem";
 import CityName from "./components/CityName/CityName";
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
